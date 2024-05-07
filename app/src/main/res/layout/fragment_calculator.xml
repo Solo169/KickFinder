@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:isScrollContainer="false"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        tools:context=".ui.MainActivity">
+
+        <TextView
+            style="@style/txtBlackBoldCenter16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🇬🇧 UK eBay Fee Calculator" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/txtBlack12TopSpaced"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sold Price" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="numberDecimal"
+                    android:id="@+id/et_sold_price"
+                    style="@style/editText"
+                    android:layout_width="match_parent" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="0dp" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/txtBlack12TopSpaced"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shipped Charge" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="numberDecimal"
+                    android:id="@+id/et_shipped_charge"
+                    style="@style/editText"
+                    android:layout_width="match_parent" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/txtBlack12TopSpaced"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Item Cost" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="numberDecimal"
+                    android:id="@+id/et_item_cost"
+                    style="@style/editText"
+                    android:layout_width="match_parent" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="0dp" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/txtBlack12TopSpaced"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shipping Cost" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="numberDecimal"
+                    android:id="@+id/et_shipping_cost"
+                    style="@style/editText"
+                    android:layout_width="match_parent" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/txtBlack12TopSpaced"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Promoted Ad Rate % " />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="numberDecimal"
+                    android:id="@+id/et_promoted_ad"
+                    style="@style/editText"
+                    android:layout_width="match_parent" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="0dp" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/txtBlack12TopSpaced"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Promotion Rate %" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:inputType="numberDecimal"
+                    android:id="@+id/et_promoted_rate"
+                    style="@style/editText"
+                    android:layout_width="match_parent" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_20sdp" />
+
+
+        <Button
+            android:id="@+id/bt_calulate"
+            style="@style/btnBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onCalculate"
+            android:text="Calculate" />
+
+        <TextView
+            style="@style/txtBlackBoldCenter16"
+            android:id="@+id/tv_ebay_fees"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eBay Fee"
+            android:layout_gravity="center" />
+
+
+        <TextView
+            style="@style/txtBlackBoldCenter16"
+            android:id="@+id/tv_total_profit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Profit"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+</ScrollView>

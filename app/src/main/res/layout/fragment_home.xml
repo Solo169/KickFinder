@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_margin="@dimen/_15sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_gravity="center" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_20sdp" />
+
+
+    <Button
+        android:id="@+id/bt_scan"
+        style="@style/btnBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Scan" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_20sdp" />
+
+
+    <Button
+        android:id="@+id/bt_browse"
+        style="@style/btnBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Browse" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_20sdp" />
+
+
+    <Button
+        android:id="@+id/bt_calculate"
+        style="@style/btnBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calculate" />
+
+</LinearLayout>

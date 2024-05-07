@@ -1,0 +1,39 @@
+{
+  "product": {
+    "artist": null,
+    "attributes": {
+      "mpn": "FD2629-100",
+      "model": "FD2629-100",
+      "size": "UK 8.5 - EU 43 - US M 9.5",
+      "color": "100 white / black-safety orange",
+      "gender": "unisex"
+    },
+    "author": null,
+    "barcode_formats": {
+      "upc_a": "196975847631",
+      "ean_13": "0196975847631"
+    },
+    "brand": null,
+    "category": [
+      "Apparel & Accessories",
+      "Shoe Accessories",
+      "Shoe Covers"
+    ],
+    "description": "Nike Sb Dunk Low Tightbooth Sku: Fd2629-100.",
+    "features": [],
+    "images": [
+      "https://images.barcodelookup.com/82357/823575214-1.jpg"
+    ],
+    "ingredients": null,
+    "nutrition_facts": null,
+    "manufacturer": "Nike",
+    "online_stores": [
+      {
+        "name": "The Edit LDN",
+        "price": "£263.16",
+        "url": "https://www.awin1.com/pclick.php?p=36580426355&a=755281&m=22584?https://www.theeditldn.com/products/nike-sb-dunk-low-tightbooth?variant=44135789953272"
+      }
+    ],
+    "title": "Nike Sb Dunk Low Tightbooth Size UK 8.5 - EU 43 - US M 9.5"
+  }
+}

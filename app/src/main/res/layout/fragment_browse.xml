@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.browse.BrowseFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.browse.BrowseFragment">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Browse Sneakers"
+            android:background="@color/blue"
+            app:titleTextColor="@android:color/white" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/sneaker1"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:background="@drawable/bg_browse"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="Nike Air Max 95 Essential"
+                            android:background="@drawable/bg_browse" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_8sdp" />
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:src="@drawable/nike_air_max_essential" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="0dp" />
+
+
+                    <LinearLayout
+                        android:id="@+id/sneaker2"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/bg_browse"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="Nike Sb Dunk Low"
+                            android:background="@drawable/bg_browse" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_8sdp" />
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:src="@drawable/nike_sb_dunk_low" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/sneaker3"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:background="@drawable/bg_browse"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="Air Jordan 4 Retro"
+                            android:background="@drawable/bg_browse" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_8sdp" />
+
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:text="Image"
+                            android:src="@drawable/air_jordan_retro" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/_10sdp"
+                        android:layout_height="0dp" />
+
+
+                    <LinearLayout
+                        android:id="@+id/sneaker4"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/bg_browse"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="Nike Dunk Low GS"
+                            android:background="@drawable/bg_browse" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_8sdp" />
+
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:src="@drawable/nike_dunk_low_gs" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</LinearLayout>

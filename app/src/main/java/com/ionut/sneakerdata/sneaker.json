@@ -1,0 +1,31 @@
+{
+  "count": 1,
+  "results": [
+    {
+      "id": "8f31b6e3-a325-4319-a865-b35660059792",
+      "brand": "Nike",
+      "colorway": "White/Black-Safety Orange",
+      "estimatedMarketValue": 141,
+      "gender": "men",
+      "image": {
+        "360": [],
+        "original": "https://image.goat.com/attachments/product_template_pictures/images/092/212/160/original/1241667_00.png.png",
+        "small": "https://image.goat.com/750/attachments/product_template_pictures/images/092/212/160/original/1241667_00.png.png",
+        "thumbnail": "https://image.goat.com/375/attachments/product_template_pictures/images/092/212/160/original/1241667_00.png.png"
+      },
+      "links": {
+        "stockX": "https://stockx.com/nike-sb-dunk-low-tightbooth",
+        "goat": "https://goat.com/sneakers/tightbooth-x-dunk-low-sb-fd2629-100",
+        "flightClub": "https://flightclub.com/tightbooth-x-dunk-low-sb-fd2629-100",
+        "stadiumGoods": ""
+      },
+      "name": "Nike SB Dunk Low TIGHTBOOTH",
+      "releaseDate": "2023-11-14",
+      "releaseYear": "2023",
+      "retailPrice": 135,
+      "silhouette": "Dunk SB",
+      "sku": "FD2629-100",
+      "story": "The TIGHTBOOTH x Nike Dunk Low SB presents the Japanese brand’s take on the classic silhouette. The low-top carries a black suede upper with textured white leather overlays at the forefoot and heel. On the lateral side, an orange TIGHTBOOTH tag is appended to the reflective black leather Swoosh. Dual logos adorn the stuffed tongue, while orange insoles display mismatched TIGHTBOOTH and Nike SB branding. The sneaker is mounted on a black rubber midsole, contrasted underfoot by a grippy white rubber outsole."
+    }
+  ]
+}
